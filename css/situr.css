@@ -1,0 +1,42 @@
+body {
+    background-color: aqua;
+}
+
+#situr {
+    text-align: center;
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+#lista {
+    text-align: center;
+    color: red;
+}
+
+footer {
+    color: brown;
+    text-align: center;
+    background-color: bisque;
+}
+
+.nav-enlace {
+    display: inline;
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover {
+    background: chocolate;
+}
+
+nav {
+    padding: 10px 50px;
+    text-align: right;
+    background-color: cornflowerblue;
+    margin-left: 990px;
+}
