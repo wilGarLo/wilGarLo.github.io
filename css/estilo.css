@@ -11,13 +11,12 @@ body {
 }
 
 .nav-enlace:hover {
-    background: red;
+    background: blue;
 }
 
 nav {
     padding: 10px 50px;
     text-align: right;
-    background-color: cornflowerblue;
     margin-left: 1000px;
 }
 
