@@ -25,9 +25,16 @@ h1 {
     color: red;
     text-align: center;
     font-family: cursive;
+    font-size: 40px;
 }
 
 #wil {
+    color: blue;
+    text-align: center;
+    font-size: 18px;
+}
+
+.garcia {
     color: blue;
     text-align: center;
 }
@@ -57,9 +64,6 @@ img {
 }
 
 #tabla {
-    align: center;
-}
-
-#situr {
     text-align: center;
+    color: blue;
 }
