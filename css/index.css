@@ -1,0 +1,73 @@
+body {
+    width: 95em;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+header {
+    background-image: url(/img/web.jpg);
+}
+
+#logo,
+#titulo {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {}
+
+#titulo,
+h1 {
+    width: 40em;
+    color: #FAEBD7;
+    text-align: center;
+    font-family: cursive;
+}
+
+.nav-enlace {
+    display: inline;
+    background: salmon;
+    color: white;
+    margin: 15px 0px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover {
+    background: #2F4F4F;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+#wil,
+#garcia {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#wil {
+    width: 8em;
+    padding-top: 1em;
+    padding-bottom: 25em;
+}
+
+#garcia {
+    width: 87em;
+    text-align: center;
+    background-color: #ADD8E6;
+    padding-top: 1em;
+    margin: 0px;
+}
+
+footer {
+    color: #000000;
+    text-align: center;
+    background-color: #800000;
+    padding: 1em;
+}

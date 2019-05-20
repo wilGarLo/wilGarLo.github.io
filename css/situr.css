@@ -1,5 +1,13 @@
 body {
-    background-color: darkcyan;
+    background: #ADD8E6;
+    margin: 0px;
+    width: 1518px;
+}
+
+header {
+    background-image: url(/img/web.jpg);
+    margin-top: 0px;
+    padding: 60px;
 }
 
 #situr {
@@ -14,12 +22,6 @@ p {
 #lista {
     text-align: center;
     color: red;
-}
-
-footer {
-    color: brown;
-    text-align: center;
-    background-color: bisque;
 }
 
 .nav-enlace {
@@ -41,4 +43,12 @@ nav {
 
 #imagen {
     border-radius: 50%;
+}
+
+footer {
+    color: #000000;
+    text-align: center;
+    background-color: #E0FFFF;
+    margin-top: 80px;
+    padding: 10px;
 }
