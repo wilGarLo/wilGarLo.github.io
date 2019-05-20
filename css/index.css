@@ -15,7 +15,11 @@ header {
     padding: 0px;
 }
 
-#logo {}
+#logo,
+img {
+    width: 10em;
+    height: 10em;
+}
 
 #titulo,
 h1 {
