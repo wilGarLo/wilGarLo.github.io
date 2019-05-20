@@ -31,7 +31,7 @@ h1 {
 
 .nav-enlace {
     display: inline;
-    background: salmon;
+    background: #4682B4;
     color: white;
     margin: 15px 0px;
     padding: 10px 30px;
@@ -56,9 +56,11 @@ nav {
 }
 
 #wil {
-    width: 8em;
+    width: 5em;
     padding-top: 1em;
+    padding-right: 3em;
     padding-bottom: 25em;
+    text-decoration: none;
 }
 
 #garcia {
@@ -72,6 +74,6 @@ nav {
 footer {
     color: #000000;
     text-align: center;
-    background-color: #800000;
+    background-color: #E0FFFF;
     padding: 1em;
 }
