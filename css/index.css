@@ -6,7 +6,7 @@ body {
 
 header {
     background-image: url(/img/web.jpg);
-    height: 150px;
+    height: 151px;
 }
 
 #logo,
@@ -16,15 +16,17 @@ header {
     padding: 0px;
 }
 
+#logo,
 img {
     width: 156px;
     height: 150px;
 }
 
 h1 {
-    color: #FAEBD7;
+    color: rgb(241, 239, 233);
     text-align: center;
     font-family: cursive;
+    padding: 50px 0px;
 }
 
 .nav-enlace {
@@ -40,13 +42,13 @@ h1 {
 }
 
 nav {
-    margin-top: 0px;
+    background-image: url(/img/fondoazul.jpg);
     padding: 10px;
     text-align: right;
 }
 
 #redes,
-#datos {
+.datos {
     float: left;
     padding: 0;
     margin: 0;
@@ -55,21 +57,25 @@ nav {
 #redes {
     width: 7em;
     background-image: url(/img/fondo.jpg);
-    margin-top: 0em;
-    padding: 191px 0em;
+    margin-top: -39px;
+    padding: 210px 0em;
 }
 
 .datos {
     text-align: center;
     color: rgb(20, 107, 179);
-    background-color: #FFFFFF;
+    background-color: whitesmoke;
     padding: 24px 25em;
     margin: 0px;
+}
+
+img {
+    border-radius: 50%;
 }
 
 footer {
     color: #000000;
     text-align: center;
-    background-color: rgb(7, 100, 100);
+    background-color: white;
     padding: 12px;
 }
