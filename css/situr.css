@@ -63,6 +63,10 @@ aside#redes {
     width: 120px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 section#baños {
     background-color: white;
 }

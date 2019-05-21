@@ -54,6 +54,10 @@ nav {
     margin: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #redes {
     width: 7em;
     background-image: url(/img/fondo.jpg);

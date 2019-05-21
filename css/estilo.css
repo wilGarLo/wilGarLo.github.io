@@ -56,6 +56,10 @@ nav {
     margin: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #redes {
     width: 5em;
     padding-top: 17em;
