@@ -9,8 +9,7 @@ header {
     height: 151px;
 }
 
-#logo,
-#titulo {
+#logo {
     float: left;
     margin: 0px;
     padding: 0px;
@@ -65,7 +64,7 @@ ul {
     padding: 210px 0em;
 }
 
-.datos {
+#datos {
     text-align: center;
     color: rgb(20, 107, 179);
     background-color: whitesmoke;
@@ -73,6 +72,7 @@ ul {
     margin: 0px;
 }
 
+#wilmer,
 img {
     border-radius: 50%;
 }

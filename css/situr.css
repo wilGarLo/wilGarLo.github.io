@@ -1,5 +1,5 @@
 body {
-    background: #ADD8E6;
+    background: white;
     margin: 0px;
     width: 1518px;
 }
@@ -35,6 +35,7 @@ p {
 
 #datos {
     text-align: center;
+    background-color: white;
 }
 
 .nav-enlace {
