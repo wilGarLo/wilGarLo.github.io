@@ -67,6 +67,46 @@ article {
     background-color: aquamarine;
 }
 
+section#arriba {
+    width: 500px;
+    height: 200px;
+    background-color: wheat;
+}
+
+section#abajo {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+}
+
+section#izq {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: rgb(83, 160, 211);
+}
+
+section#der {
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: black;
+}
+
+section#wil {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: rgb(197, 167, 32);
+}
+
+section#gar {
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: rgb(247, 230, 231);
+}
+
 aside#right {
     width: 100px;
     height: 400px;

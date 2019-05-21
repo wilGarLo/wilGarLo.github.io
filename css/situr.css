@@ -6,7 +6,7 @@ body {
 
 header {
     background-image: url(/img/web.jpg);
-    height: 151px;
+    height: 196px;
 }
 
 #logo,
@@ -18,8 +18,8 @@ header {
 
 #logo,
 img {
-    width: 156px;
-    height: 150px;
+    width: 180px;
+    height: 196px;
 }
 
 h1 {
@@ -29,16 +29,11 @@ h1 {
     padding: 50px 0px;
 }
 
-#situr {
-    text-align: center;
-    color: red;
-}
-
 p {
     color: blue;
 }
 
-#lista {
+#datos {
     text-align: center;
 }
 
@@ -60,25 +55,38 @@ nav {
     text-align: right;
 }
 
-#redes,
-.datos {
+aside#redes {
     float: left;
-    padding: 0;
-    margin: 0;
-}
-
-#redes {
-    width: 8em;
+    padding: 308px 0px;
     background-image: url(/img/fondo.jpg);
-    margin-top: -39px;
-    padding: 300px 0em;
+    margin-top: 0px;
+    width: 120px;
 }
 
-#baños,
-#santa,
-#cumbe,
-#porcon {
-    display: block;
+section#baños {
+    background-color: white;
+}
+
+section#wilb {
+    float: left;
+    width: 950px;
+}
+
+section#gar {
+    float: left;
+}
+
+section#wils {
+    float: left;
+    width: 950px;
+}
+
+section#gars {
+    float: left;
+}
+
+#unc {
+    border-radius: 50%;
 }
 
 footer {
