@@ -1,0 +1,168 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        html {
+            background-color: white;
+        }
+        
+        body {
+            width: 950px;
+            height: 1150px;
+            background-color: wheat;
+            margin: 10px 150px;
+        }
+        
+        header {
+            width: 950px;
+            height: 150px;
+        }
+        
+        #zozo,
+        #zozito {
+            display: inline;
+        }
+        
+        #titulo,
+        #barra {
+            display: inline;
+        }
+        
+        #barra {
+            padding: 0px 350px;
+        }
+        
+        #titulo {
+            font-family: serif;
+        }
+        
+        .nav-enlace {
+            display: inline;
+            color: black;
+            text-decoration: none;
+            font-size: 25px;
+            margin: 0px 5px;
+        }
+        
+        .nav-enlace:hover {
+            background: #2F4F4F;
+        }
+        
+        #separa {
+            width: 950px;
+            height: 6px;
+            padding-top: 25px;
+        }
+        
+        div {
+            width: 950px;
+            height: 250px;
+        }
+        
+        #contenedor {
+            background: url(/img/sanfrancisco.jpg) no-repeat;
+            width: 950px;
+            height: 250px;
+            border-radius: 2%;
+        }
+        
+        #negro {
+            background-color: black;
+            width: 950px;
+            height: 30px;
+            color: white;
+        }
+        
+        #cuerpo {
+            width: 950px;
+            height: 500px;
+        }
+        
+        #parrafo {
+            float: left;
+            width: 655px;
+            height: 500px;
+            margin-left: 10px;
+            background-color: wheat;
+            text-align: justify;
+        }
+        
+        #autor {
+            text-align: justify;
+            float: left;
+            width: 285px;
+            height: 500px;
+            background-color: gray;
+        }
+        
+        #burrito {
+            margin: 20px 60px;
+        }
+        
+        #biografia {
+            margin-left: 15px;
+        }
+        
+        #about {
+            text-align: center
+        }
+        
+        #autor {
+            border-radius: 5%;
+        }
+        
+        footer {
+            width: 950px;
+            height: 150px;
+            margin: 20px 0px;
+        }
+        
+        #separar {
+            width: 950px;
+            height: 6px;
+        }
+        
+        #top {
+            margin: 0px 450px;
+        }
+        
+        section#last {
+            float: left;
+            width: 250px;
+            height: 150px;
+        }
+        
+        section#imagen {
+            float: left;
+            width: 320px;
+            height: 150px;
+        }
+        
+        section#amigos {
+            float: left;
+            width: 380px;
+            height: 150px;
+        }
+        
+        #ami {
+            width: 380px;
+            height: 40px;
+        }
+        
+        #filas {
+            width: 380px;
+            height: 110px;
+        }
+        
+        #pupi {
+            float: left;
+            width: 190px;
+            height: 110px;
+        }
+        
+        #ji {
+            float: left;
+            width: 190px;
+            height: 110px;
+        }
