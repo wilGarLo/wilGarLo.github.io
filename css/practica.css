@@ -11,7 +11,7 @@
             width: 950px;
             height: 1150px;
             background-color: wheat;
-            margin: 10px 150px;
+            margin: 10px 250px;
         }
         
         header {
@@ -61,10 +61,12 @@
         }
         
         #contenedor {
-            background: url(/img/sanfrancisco.jpg) no-repeat;
             width: 950px;
             height: 250px;
-            border-radius: 2%;
+        }
+        
+        #san {
+            border-radius: 15px;
         }
         
         #negro {
