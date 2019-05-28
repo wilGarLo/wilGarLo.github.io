@@ -1,0 +1,55 @@
+body {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+header {
+    width: 1000px;
+    height: 150px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
+
+.nav-enlace {
+    display: inline;
+    background: #4682B4;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover {
+    background: #2F4F4F;
+}
+
+nav {
+    padding: 10px;
+    text-align: right;
+    height: 20px;
+}
+
+#rapido {
+    float: left;
+    width: 300px;
+    height: 320px;
+}
+
+#sap {
+    float: left;
+    width: 700px;
+    height: 320px;
+}
+
+#p {
+    color: blue;
+}
+
+#reu {
+    width: 400px;
+    height: 170px;
+    margin-left: 30px;
+}
