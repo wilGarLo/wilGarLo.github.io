@@ -38,6 +38,11 @@ nav {
     height: 320px;
 }
 
+ul,
+li {
+    text-decoration: none;
+}
+
 #sap {
     float: left;
     width: 700px;
