@@ -1,36 +1,37 @@
+html {
+    margin-left: 100px;
+}
+
 body {
-    background: white;
-    margin: 0px;
-    width: 1518px;
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0px;
 }
 
 header {
     background-image: url(/img/web.jpg);
-    height: 196px;
+    height: 180px;
 }
 
-#logo,
-#titulo {
+#logo {
     float: left;
-    margin: 0px;
-    padding: 0px;
+    width: 200px;
+    height: 700px;
 }
 
 #logo,
 img {
-    width: 180px;
-    height: 196px;
+    width: 200px;
+    height: 180px;
 }
 
+#titulo,
 h1 {
     color: rgb(241, 239, 233);
     text-align: center;
     font-family: cursive;
     padding: 50px 0px;
-}
-
-p {
-    color: blue;
 }
 
 #datos {
@@ -56,48 +57,109 @@ nav {
     text-align: right;
 }
 
-aside#redes {
+#redes {
     float: left;
-    padding: 308px 0px;
+    width: 100px;
+    height: 500px;
     background-image: url(/img/fondo.jpg);
-    margin-top: 0px;
-    width: 120px;
+    padding-top: 200px;
 }
 
-ul {
-    list-style-type: none;
-}
-
-section#baños {
-    background-color: white;
-}
-
-section#wilb {
+#datos {
     float: left;
-    width: 950px;
+    width: 1200px;
+    height: 500px;
+    padding: 10px 10px;
 }
 
-section#gar {
-    float: left;
+#primera {
+    width: 1200px;
+    height: 250px;
 }
 
-section#wils {
+#baños {
     float: left;
-    width: 950px;
+    width: 600px;
+    height: 250px;
 }
 
-section#gars {
+#bi {
     float: left;
+    width: 200px;
+    height: 250px;
+}
+
+#bp {
+    float: left;
+    width: 400px;
+    height: 250px;
+}
+
+#santa {
+    float: left;
+    width: 600px;
+    height: 250px;
+}
+
+#si {
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+
+#sp {
+    float: left;
+    width: 400px;
+    height: 250px;
+}
+
+#segunda {
+    width: 1200px;
+    height: 250px;
+}
+
+#cumbe {
+    float: left;
+    width: 600px;
+    height: 250px;
+}
+
+#ci {
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+
+#cp {
+    float: left;
+    width: 400px;
+    height: 250px;
+}
+
+#granja {
+    float: left;
+    width: 600px;
+    height: 250px;
+}
+
+#gi {
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+
+#gp {
+    float: left;
+    width: 400px;
+    height: 250px;
 }
 
 #unc {
-    border-radius: 50%;
+    border-radius: 5px;
 }
 
 footer {
-    color: #000000;
     text-align: center;
-    background-color: #E0FFFF;
-    margin-top: 80px;
-    padding: 10px;
+    background-color: rgb(232, 241, 241);
+    font-size: 10px;
 }

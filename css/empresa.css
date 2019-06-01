@@ -3,7 +3,7 @@ body {
     height: 800px;
     margin: 0 auto;
     padding: 0px;
-    background-color: aliceblue;
+    background-color: rgb(54, 127, 190);
 }
 
 header {
@@ -34,13 +34,17 @@ nav {
 
 #rapido {
     float: left;
-    width: 300px;
+    width: 400px;
     height: 300px;
+}
+
+#rapido li a {
+    text-decoration: none;
 }
 
 #sap {
     float: left;
-    width: 700px;
+    width: 600px;
     height: 300px;
 }
 
