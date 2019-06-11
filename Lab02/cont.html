@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="/css/icomcon/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/Lab02/css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <!--<!<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+    <link rel="stylesheet" href="/Lab02/w3css/w3.css">
+
+
 </head>
 
 <body>
@@ -23,13 +27,13 @@
                 <div class=" col-sm-4 col-md-3 col-lg-2 ">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link " href="index.html">Inicio <span class="icon-home2 "></span></a>
-                        <a class="nav-link active" href="/Lab02/cont.html">Contactos <span class="icon-phone "></span></a>
+                        <a class="nav-link active" href="/Lab02/cont.html">Contáctenos <span class="icon-phone "></span></a>
                         <a class="nav-link" href="turis.html">Turismo <span class="icon-location "></span></a>
                     </div>
                 </div>
                 <div class="col-sm-8 col-md-9 col-lg-10  p-3 mb-2 bg-info text-white rounded-pill " style="background-image: url(/img/web.jpg)">
                     <div class="tab-content" id="v-pills-tabContent">
-                        <h1 class="text-center">Contactos</h1>
+                        <h1 class="text-center">Contáctanos</h1>
                     </div>
                 </div>
             </div>
@@ -37,110 +41,59 @@
     </header>
     <div class="container shadow-lg p-3 mb-5 bg-white rounded">
         <section class="main row">
-            <article class="col-sm-10 col-md-11 text-primary text-center">
-                <section class="main row">
-                    <article class="col-sm-5 col-md-6 text-primary text-center">
-                        <table border="3">
-                            <tr>
-                                <th colspan=5>Familia</th>
-                            </tr>
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Telefono</th>
-                                <th>Correo</th>
-                                <th>Imagen</th>
+            <div class="col-sm-5 col-md-4 col-xl-4">
+                <h6 class="w3-text-blue">Informacion de Contacto</h6>
+                <div class="w3-card-4 w3-margin-left " style="width:50%">
+                    <img src="/img/wil.jpg" alt="Alps" style="width:100%">
+                    <div class="w3-container w3-center">
+                        <p>Wilmer Garcia</p>
+                    </div>
+                </div>
+                <p><span class="icon-phone w3-hover-blue-gray "></span>Telefono:962128842</p>
+                <p><span class="icon-google w3-hover-blue-gray  "></span>mail:wilmergl1994@gmail.com</p>
+                <p><span class="icon-whatsapp w3-hover-blue-gray  "></span>Whatsapp:945633721</p>
+            </div>
+            <div class="col-sm-7 col-md-8 col-xl-8  bg-light ">
+                <div class="">
+                    <h6 class="w3-xlarge w3-text-blue">Dejanos tu consulta</h6>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Nombres y Apellidos">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
 
-                            </tr>
-                            <tr>
-                                <td>Segundo Garcia</td>
-                                <td>934567612</td>
-                                <td>pe12@gmail.com</td>
-                                <td><img src="/img/boy.png" width="60px" alt=""></td>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Correo">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Telefono">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Consulta" rows="3"></textarea>
+                    </div> <br><br><br><br><br><br>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-success">ENVIAR</button>
+                    </div>
 
-
-                            </tr>
-                            <tr>
-                                <td>Carlos Garcia</td>
-                                <td>989786543</td>
-                                <td>car20@gmail.com</td>
-                                <td><img src="/img/student.png" width="60px" alt=""></td>
-
-                            </tr>
-                            <tr>
-                                <td>Nestor Garcia</td>
-                                <td>967543212</td>
-                                <td>nest77@gmail.com</td>
-                                <td><img src="/img/manager.png" width="60px" alt=""></td>
-
-                            </tr>
-                            <tr>
-                                <td>Aurora Lopez</td>
-                                <td>912786542</td>
-                                <td>aulpc14@gmail.com</td>
-                                <td><img src="/img/boy.png" width="60px" alt=""></td>
-
-                            </tr>
-                        </table>
-
-                    </article>
-                    <article class="col-sm-5 col-md-5 text-primary text-center">
-                        <table border="3">
-                            <tr>
-                                <th colspan=5>Amigos</th>
-                            </tr>
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Telefono</th>
-                                <th>Correo</th>
-                                <th>Imagen</th>
-
-                            </tr>
-                            <tr>
-                                <td>Magaly</td>
-                                <td>945673412</td>
-                                <td>maro22@gmail.com</td>
-                                <td><img src="/img/manager.png" width="60px" alt=""></td>
-
-
-                            </tr>
-                            <tr>
-                                <td>Eber</td>
-                                <td>973897867</td>
-                                <td>Eber13@gmail.com</td>
-                                <td><img src="/img/boy.png" width="60px" alt=""></td>
-
-                            </tr>
-                            <tr>
-                                <td>Janet</td>
-                                <td>965235819</td>
-                                <td>Ri23@gmail.com</td>
-                                <td><img src="/img/student.png" width="60px" alt=""></td>
-
-                            </tr>
-                            <tr>
-                                <td>Richar</td>
-                                <td>965235819</td>
-                                <td>Ri23@gmail.com</td>
-                                <td><img src="/img/boy.png" width="60px" alt=""></td>
-
-                            </tr>
-                        </table>
-                    </article>
-                </section>
-            </article>
-            <aside class="col-sm-2 col-md-1  rounded-pill bg-light "> <br><br><br>
-                <a href="https://www.facebook.com/ " target="blanck"> <img src="/img/facebook.png" width="35px" alt=""></a><br>
-                <a href="https://twitter.com " target="blanck"> <img src="/img/twitter.png" width="35px" alt=""></a><br>
-                <a href="https://www.instagram.com" target="blanck"><img src="/img/instagram.png" width="35px" alt=""></a><br>
-                <a href="https://support.google.com " target="blanck"><img src="/img/gmail.png" width="35px" alt=""></a>
-                <a href="https://www.youtube.com " target="blanck"><img src="/img/youtube.png" width="35px" alt=""></a>
-            </aside>
-
+                </div>
+            </div>
         </section>
     </div>
-    <nav class="container text-center ">
-        <img src="/img/sistemas.jpg" width="30" height="30" alt="">Autor: WilmerGarcia
-    </nav>
+    <div class=" container">
+        <div class="w3-container w3-half">
+            <address>Autor: Wilmer Garcia Lopez <br />
+                    Estudiante de ingenieria de Sistemas (UNC)
+                    </address>
+        </div>
+        <div class="w3-container w3-half w3-right-align">
+            <h6 class="w3-text-blue">Sígenos</h6>
+            <a href="https://www.facebook.com/ " target="blanck"> <img src="/img/facebook.png" width="20px" alt=""></a>
+            <a href="https://twitter.com " target="blanck"> <img src="/img/twitter.png" width="20px" alt=""></a>
+            <a href="https://www.instagram.com" target="blanck"><img src="/img/instagram.png" width="20px" alt=""></a>
+            <a href="https://support.google.com " target="blanck"><img src="/img/gmail.png" width="20px" alt=""></a>
+            <a href="https://www.youtube.com " target="blanck"><img src="/img/youtube.png" width="20px" alt=""></a>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
     <script src="css/bootstrap-4.3.1-dist/js/bootstrap.js " async defer></script>
 </body>
